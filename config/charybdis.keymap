@@ -88,7 +88,7 @@
   ╰───────╮ 30  31  32 │ │ 33  34 ╭───────────╯
           ╰────────────╯ ╰────────╯                */
  / {
-    combos {
+    /* combos {
         compatible = "zmk,combos";
 
         LeftClickRight {
@@ -130,7 +130,7 @@
             key-positions = <7 8 9>;
         };
 
-    };
+    }; */
 
     behaviors {
         MACRO_ONE_PARAM(
