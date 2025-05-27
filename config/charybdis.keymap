@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
-/*#include <dt-bindings/zmk/ext_power.h>*/
+#include <dt-bindings/zmk/ext_power.h>
 
 #define _ &kp
 #define ___ &none
@@ -77,6 +77,14 @@
 
 &sk {
         release-after-ms = <60000>;
+};
+
+/ {
+    chosen { zmk,matrix_transform = &five_column_transform; };
+
+/* Use this instead for 3x6 form factor:
+    chosen { zmk,matrix_transform = &default_transform; }; */
+
 };
 
 /*                KEY POSITIONS for combos
