@@ -132,7 +132,7 @@
 
     };
 
-/ {
+  {
     behaviors {
         MACRO_ONE_PARAM(
             m_release_key_twice,
@@ -243,7 +243,7 @@
     };
 };
 
-/ {
+  {
     keymap {
         compatible = "zmk,keymap";
 
