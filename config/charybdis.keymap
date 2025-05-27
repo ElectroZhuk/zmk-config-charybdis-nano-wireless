@@ -123,6 +123,11 @@
             bindings = <&mkp MB5>;
             key-positions = <27 28>;
         };
+        
+        RefreshPageRight {
+            bindings = <&kp F5>;
+            key-positions = <6 7>;
+        };
 
         ResetLeft {
             bindings = <&sys_reset>;
@@ -262,7 +267,7 @@
         def_layer {
             bindings = <
 _ Q          _ W          _ E          _ R         _ T             _ Y          _ U          _ I          _ O          _ P
-_ A          _ S          _ D          _ F         _ G             _ H          _ J          _ K          _ L          &base_lt SCR SEMI
+_ A          _ S          _ D          _ F         _ G             _ H          &base_lt SCR J          _ K          _ L          _ SEMI
 _ Z          _ X          _ C          _ V         _ B             _ N          _ M          _ COMMA      _ DOT        _ FSLH
                           _ CAPS       _ SPACE     &la NAV         _ LSFT       &la SYM
             >;
