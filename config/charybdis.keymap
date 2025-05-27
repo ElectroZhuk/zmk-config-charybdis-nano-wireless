@@ -127,7 +127,7 @@
         };
         ResetRight {
             bindings = <&sys_reset>;
-            key-positions = <7 8 9>;n
+            key-positions = <7 8 9>;
         };
 
     }; 
