@@ -123,11 +123,6 @@
             bindings = <&mkp MB5>;
             key-positions = <27 28>;
         };
-        
-        AltLayerRight {
-            bindings = <&mo ALT>;
-            key-positions = <33 34>;
-        };
 
         ResetLeft {
             bindings = <&sys_reset>;
@@ -296,7 +291,7 @@ _ G          _ J          _ I          _ M         _ T             ___          
 _ N1         _ N2         _ N3         _ N4        _ N5            _ N6         _ N7         _ N8         _ N9         _ N0
 _ SEMI       _ GRV        _ SQT        _ DQT       _ MINUS         _ PLUS       &cm_sft      &cm_ctrl     &cm_alt      &cm_gui
 _ BSL        _ RA(COMMA)  _ LS(LBKT)   _ LBKT      _ UNDER         _ EQUAL      _ RBKT       _ LS(RBKT)   _ PIP        _ BSLH
-                          ______       ______      ______          ______       ______       
+                          &mo ALT      ______      ______          ______       ______       
             >;
         };
 
