@@ -269,7 +269,7 @@
 _ Q          _ W          _ E          _ R         _ T             _ Y          _ U          _ I          _ O          _ P
 _ A          _ S          _ D          _ F         _ G             _ H          _ J          _ K          _ L          &base_lt SCR SEMI
 _ Z          _ X          _ C          _ V         _ B             _ N          _ M          _ COMMA      _ DOT        _ FSLH
-                          _ CAPS       _ SPACE     &la NAV         &la SYM      _ LSFT       
+                          _ CAPS       _ SPACE     &la NAV         _ LSFT       &la SYM
             >;
         };
 
@@ -278,7 +278,7 @@ _ Z          _ X          _ C          _ V         _ B             _ N          
 _ TAB        _ Q          _ W          _ E         _ R             ___          ___          _ UP         ___          _ TAB
 _ LSFT       _ A          _ S          _ D         _ F             ___          _ LEFT       _ DOWN       _ RIGHT      _ RSFT
 _ LCTRL      _ Z          _ X          _ C         _ V             ___          ___          ___          ___          _ RCTRL
-                          _ LALT       _ SPACE     &mo GFN         &tog GAM     _ SPACE      
+                          _ LALT       _ SPACE     &mo GFN         _ SPACE      &tog GAM
             >;
         };
 
@@ -332,7 +332,7 @@ _ RA(Z)      _ RA(X)      _ RA(C)      _ RA(V)     _ RA(B)         _ RA(N)      
 _ MEH(Q)     _ MEH(W)     _ MEH(E)     _ MEH(R)    _ MEH(T)        _ MEH(Y)     _ C_VOL_DN   _ C_MUTE     _ C_VOL_UP   _ MEH(P)
 _ MEH(A)     _ MEH(S)     _ MEH(D)     _ MEH(F)    _ MEH(G)        _ MEH(H)     _ C_PREV     _ C_PP       _ C_NEXT     _ MEH(SEMI)
 &bootloader  _ MEH(X)     _ MEH(C)     _ MEH(V)    _ MEH(B)        _ MEH(N)     _ MEH(M)     _ MEH(COMMA) _ MEH(DOT)   &bootloader
-                          ______       ______      ______          _ LGUI       ______       
+                          ______       ______      ______          ______       _ LGUI
             >;
         };
         
