@@ -302,7 +302,7 @@ _ BSL        _ RA(COMMA)  _ LS(LBKT)   _ LBKT      _ UNDER         _ EQUAL      
 
         nav_layer {
             bindings = <
-&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR_ALL _ ESC           _ ESC        _ HOME       _ END        _ BSPC       _ DEL
+&tabber      &swapper_win &swapper_mac ___         _ ESC           _ ESC        _ HOME       _ END        _ BSPC       _ DEL
 &cm_gui      &cm_alt      &cm_ctrl     &cm_sft     _ RET           _ RET        _ LEFT       _ DOWN       _ UP         _ RIGHT
 _ PSPC       _ NSPC       &tog GAM     _ PSCRN     _ TAB           _ TAB        _ PG_UP      _ PG_DN      _ APOS       _ KP_NUM
                           &mo CMD      ______      ______          ______       ______       
