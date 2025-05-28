@@ -245,7 +245,7 @@
             label = "BASE_LAYER_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <500>;
             quick-tap-ms = <200>;
             bindings = <&mo>, <&kp>;
         };
@@ -338,20 +338,20 @@ _ MEH(A)     _ MEH(S)     _ MEH(D)     _ MEH(F)    _ MEH(G)        _ MEH(H)     
         
         mouse_layer {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &trans     &trans     &trans     &trans
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &mkp MB4   &mkp MB5   &trans     &trans
-                        &trans  &trans  &trans        /*&  &*/       &trans  &trans
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+                        ___  ___  ___        /*&  &*/       ___  ___
             >;
         };    
 
 
         scroll_layer {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &trans     &trans     &trans     &trans
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-        &trans  &trans  &trans  &trans  &trans        /*&  &*/       &trans  &mkp MB4   &mkp MB5   &trans     &trans
-                        &trans  &trans  &trans        /*&  &*/       &trans  &trans
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
+                        ___  ___  ___        /*&  &*/       ___  ___
             >;
         };
     };
