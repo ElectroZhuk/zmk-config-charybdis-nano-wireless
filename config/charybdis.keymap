@@ -20,7 +20,7 @@
 #define ALT 6
 #define CMD 7
 #define MOU 8
-#define SCR 9
+#define SCL 9
 
 #define MEH(key) LS(LC(LA(key)))
 
@@ -128,14 +128,15 @@
             bindings = <&kp F5>;
             key-positions = <6 7>;
         };
-
-        ResetLeft {
-            bindings = <&sys_reset>;
-            key-positions = <0 1 2>;
+        
+        ShiftRight {
+            bindings = <&kp LSHIFT>;
+            key-positions = <28 29>;
         };
-        ResetRight {
-            bindings = <&sys_reset>;
-            key-positions = <7 8 9>;
+        
+        CtrlRight {
+            bindings = <&kp LCTRL>;
+            key-positions = <8 9>;
         };
 
     }; 
@@ -266,9 +267,9 @@
 
         def_layer {
             bindings = <
-_ Q          _ W          _ E          _ R         _ T             _ Y          _ U          _ I          _ O          _ P
-_ A          _ S          _ D          _ F         _ G             _ H          &base_lt SCR J          _ K          _ L          _ SEMI
-_ Z          _ X          _ C          _ V         _ B             _ N          _ M          _ COMMA      _ DOT        _ FSLH
+_ Q          _ W          _ E          _ R         _ T             _ Y          _ U            _ I          _ O          _ P
+_ A          _ S          _ D          _ F         _ G             _ H          &base_lt SCL J _ K          _ L          _ SEMI
+_ Z          _ X          _ C          _ V         _ B             _ N          _ M            _ COMMA      _ DOT        _ FSLH
                           _ CAPS       _ SPACE     &la NAV         _ LSFT       &la SYM
             >;
         };
@@ -338,20 +339,20 @@ _ MEH(A)     _ MEH(S)     _ MEH(D)     _ MEH(F)    _ MEH(G)        _ MEH(H)     
         
         mouse_layer {
             bindings = <
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     _ LCTRL     ___     ___
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
-                        ___  ___  ___        /*&  &*/       ___  ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          ___          ___          ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          ___          ___          ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          ___          ___          ___
+                          ___          ___          ___        /*&  &*/       ___          ___
             >;
         };    
 
 
         scroll_layer {
             bindings = <
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
-        ___  ___  ___  ___  ___        /*&  &*/       ___  ___     ___     ___     ___
-                        ___  ___  ___        /*&  &*/       ___  ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          ___          ___          ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          _ LCTRL      ___          ___
+___          ___          ___          ___          ___        /*&  &*/       ___          ___          ___          ___          ___
+                          ___          ___          ___        /*&  &*/       ___          ___
             >;
         };
     };
