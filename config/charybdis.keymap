@@ -270,7 +270,7 @@
 _ Q          _ W          _ E          _ R         _ T             _ Y          _ U            _ I          _ O          _ P
 _ A          _ S          _ D          _ F         _ G             _ H          &base_lt SCL J _ K          _ L          _ SEMI
 _ Z          _ X          _ C          _ V         _ B             _ N          _ M            _ COMMA      _ DOT        _ FSLH
-                          _ CAPS       _ SPACE     &la NAV         _ LSFT       &la SYM
+                          &base_lt ALT CAPS _ SPACE     &la NAV         _ LSFT       &la SYM
             >;
         };
 
@@ -297,7 +297,7 @@ _ G          _ J          _ I          _ M         _ T             ___          
 _ N1         _ N2         _ N3         _ N4        _ N5            _ N6         _ N7         _ N8         _ N9         _ N0
 _ SEMI       _ GRV        _ SQT        _ DQT       _ MINUS         _ PLUS       &cm_sft      &cm_ctrl     &cm_alt      &cm_gui
 _ BSL        _ RA(COMMA)  _ LS(LBKT)   _ LBKT      _ UNDER         _ EQUAL      _ RBKT       _ LS(RBKT)   _ PIP        _ BSLH
-                          &mo ALT      ______      ______          ______       ______       
+                          ______       ______      ______          ______       ______       
             >;
         };
 
