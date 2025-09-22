@@ -59,9 +59,9 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
          /*   optional features   */
-        scroll-layers = <6>;
+        scroll-layers = <9>;
         // automouse-layer = <5,1>;
-        // snipe-layers = <1>;
+        // snipe-layers = <9>;
     };
 };
 
