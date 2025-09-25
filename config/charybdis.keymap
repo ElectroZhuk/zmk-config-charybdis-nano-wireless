@@ -121,22 +121,12 @@
         
         MouseButton5Right {
             bindings = <&mkp MB5>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
         };
         
         RefreshPageRight {
             bindings = <&kp F5>;
             key-positions = <6 7>;
-        };
-        
-        ShiftRight {
-            bindings = <&kp LSHIFT>;
-            key-positions = <28 29>;
-        };
-        
-        CtrlRight {
-            bindings = <&kp LCTRL>;
-            key-positions = <8 9>;
         };
 
     }; 
